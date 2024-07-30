@@ -1,0 +1,6 @@
+
+python:S58861"gReturn a value of type "list[tuple]" instead of "NoneType" or update function "get_BPs_Comb" type hint.(ò¤Ÿù
+python:S58863"gReturn a value of type "list[tuple]" instead of "NoneType" or update function "get_BPs_Comb" type hint.(ò¤Ÿù
+lpython:S117-"URename this parameter "numSplits" to match the regular expression ^[_a-z][a-z0-9_]*$.(Þ¢˜Ã
+gpython:S100-"PRename method "get_BPs_Comb" to match the regular expression ^[a-z_][a-z0-9_]*$.(Þ¢˜Ã
+Ipython:S5806ž"+Rename this variable; it shadows a builtin.(©ã Êþÿÿÿÿ
