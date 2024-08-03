@@ -65,7 +65,7 @@ class Gene:
 # 염색체는 연속형 변수의 개수만큼의 유전자를 가짐
 class Chromosome:
     def __init__(self, attr_names: List[str], df: pd.DataFrame, cat_names: List[str],
-                 target='Decision', min_samples_split=10, min_impurity_decrease=0.01,max_depth=3):
+                 target='Decision', algorithm='C4.5',max_depth=5):
         gene_list = []
         exclude_attr = [target]
         for id, attr in enumerate(attr_names):
@@ -80,9 +80,7 @@ class Chromosome:
         self.attr_names = attr_names
         self.cat_names = cat_names
         self.config = {
-            'algorithm': 'C4.5',
-            'min_samples_split': min_samples_split,
-            'min_impurity_decrease': min_impurity_decrease,
+            'algorithm': algorithm,
             'enableParallelism': False,
             'max_depth': max_depth,
         }

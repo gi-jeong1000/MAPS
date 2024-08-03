@@ -1,2 +1,3 @@
 
-‘python:S3776m"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(œŸ²_J$8c427530-de78-4629-ad3c-ed6f032b8ee5
+¨python:S117-"_Rename this local variable "X_top_features" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹½“ùüÿÿÿÿ8ËÍ»‘2J$53370a3f-3748-4005-ac09-20fae76fb9f0
+}python:S1481M"8Replace the unused local variable "best_score" with "_".(ĞÅ¦Â8ËÍ»‘2J$0516d62e-ef54-40c2-be12-9b7575ea531b

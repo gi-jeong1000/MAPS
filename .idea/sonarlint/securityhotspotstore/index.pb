@@ -8,19 +8,6 @@
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 F
 preprocess/ReadData.py,c/6/c6404658caea4f99d987ad80ac5bde490102efe7
-5
-RF.py,1/5/150905c929a375f4e6a47efe654a819b75ee0b29
-5
-NN.py,5/e/5e87b25c24162ed880cc7ca1cd43df397352648d
-6
-SVM.py,4/2/42bacc91f6c58265471b1ea0e167940c17ee003d
-<
-visualize.py,0/9/094189399a0f6d9523937353456b76bc5b1fb27b
-=
-withoutRL.txt,b/0/b03e6c35020d953e630a7253b8ab85ff708c03da
-:
-
-withRL.txt,5/5/553387ddcb2200400af95ecee2b0e66f62859d89
 B
 dataset/3_H_dh.txt,4/3/432d20e1c03714a35df01e4aa96e41e88b6ae47a
 B
@@ -67,9 +54,13 @@ F
 dataset/6_T_act_RL.txt,1/6/168ddd417377abcaa8fdbb0d394c40d5fdb03a9a
 B
 dataset/6_T_dh.txt,4/0/400d93b75daffca24167a3094378d06cf48d66ec
-4
-1.py,c/2/c219a089181df5cecb20ccda79101fe5fd791a21
 <
 DWARF/gda.py,9/f/9fe6f7a6a0e437c31bc41b25b6f225d82627e649
 =
 DWARF/main.py,9/2/92a3b0e7c94fac744aefbd1bfde3d21d933ff51a
+@
+general_ML/RF.py,1/5/15469b63e1148f31ac58ea7ddf2a0bf5c34be75f
+=
+DWARF/test.py,2/4/248e2ce8b1580fe1155a0a315d30a11d434707b3
+Q
+!DWARF/outputs/rules/model_test.py,6/c/6c3eb14bee2320961dfd1ef00f88c3a2cbce6623
