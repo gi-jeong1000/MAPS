@@ -1,3 +1,4 @@
 
-¨python:S117-"_Rename this local variable "X_top_features" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹½“ùüÿÿÿÿ8ËÍ»‘2J$53370a3f-3748-4005-ac09-20fae76fb9f0
-}python:S1481M"8Replace the unused local variable "best_score" with "_".(ĞÅ¦Â8ËÍ»‘2J$0516d62e-ef54-40c2-be12-9b7575ea531b
+¨python:S1179"_Rename this local variable "X_top_features" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹½“ùüÿÿÿÿ8Åÿú“’2J$6837661d-38f1-4a01-afc9-bae0db9603ff
+˜python:S3776"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(œŸ²_8Íÿú“’2J$1e5bd29a-b8db-4536-b8dd-7cba5a75e263
+python:S6734&"5Do not use "inplace=True" when modifying a dataframe.(¤Õ™üıÿÿÿÿ8Ù¨ı¸”2J$61add21e-f910-40e2-aa92-4e83c2c19776

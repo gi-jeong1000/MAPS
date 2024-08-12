@@ -87,7 +87,7 @@ class Chromosome:
 
     def clone(self):
         # 염색체 복제: 유전자 리스트를 deepcopy하여 새 염색체 생성
-        clone_chromosome = Chromosome(self.attr_names, self.df, self.cat_names, f'{self.target}')
+        clone_chromosome = Chromosome(self.attr_names, self.df, self.cat_names, f'{self.target}', self.config['algorithm'], self.config['max_depth'])
         clone_chromosome.genes = copy.deepcopy(self.genes)
         return clone_chromosome
 
@@ -143,8 +143,10 @@ class Chromosome:
         df_disc = discrete_df(df, self)
         self.model = chef.fit(df_disc, self.config, target_label=self.target, name='model_test')
         accuracy = self.model['evaluation']['train']['Accuracy']
-        self.objective = accuracy
-        return self.model
+        precision = self.model['evaluation']['train']['Precision']
+        recall = self.model['evaluation']['train']['Recall']
+        f1_score = 2 * (precision * recall) / (precision + recall)
+        return accuracy, precision, recall, f1_score
 # 이산화 데이터프레임 생성
 # 파라미터 : 데이터프레임, 염색체
 def discrete_df(df: pd.DataFrame, chromo: Chromosome):

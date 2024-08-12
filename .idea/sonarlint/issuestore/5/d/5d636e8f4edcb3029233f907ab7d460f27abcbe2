@@ -1,0 +1,19 @@
+
+Hpython:S1066"/Merge this if statement with the enclosing one.(µ†”
+ipython:S1854\"QRemove this assignment to local variable 'target_label'; the value is never used.(ÛƒşĞ
+wpython:S117Œ"_Rename this local variable "enableAdaboost" to match the regular expression ^[_a-z][a-z0-9_]*$.(‡€½“
+rpython:S117‹"ZRename this local variable "enableGBM" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹ÉåÃ
+zpython:S117"bRename this local variable "enableParallelism" to match the regular expression ^[_a-z][a-z0-9_]*$.(ìéÑ
+{python:S117Š"cRename this local variable "enableRandomForest" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÅˆÛ
+qpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 46 to the 15 allowed.(»ß‘àúÿÿÿÿ
+Qpython:S1135J"4Complete the task associated to this "TODO" comment.(Õ€šûÿÿÿÿ
+<python:S125¸"Remove this commented out code.(¼ñ©Ôùÿÿÿÿ
+<python:S125ó"Remove this commented out code.(èñÓúÿÿÿÿ
+7python:S125ÿ"Remove this commented out code.(µÄ¸Œ
+rpython:S117å"ZRename this local variable "enableGBM" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹ÉåÃ
+{python:S117ç"cRename this local variable "enableRandomForest" to match the regular expression ^[_a-z][a-z0-9_]*$.(äÅˆÛ
+mpython:S3776¹"TRefactor this function to reduce its Cognitive Complexity from 48 to the 15 allowed.(¹îü³
+Dpython:S1481ö"+Replace the unused loop index "i" with "_".(üµõ¶
+jpython:S1542Ö"QRename function "restoreTree" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÿ“œ—
+mpython:S3776â"TRefactor this function to reduce its Cognitive Complexity from 51 to the 15 allowed.(±„Ø„
+|python:S117ø"_Rename this local variable "enableAdaboost" to match the regular expression ^[_a-z][a-z0-9_]*$.(‚€¦™üÿÿÿÿ
