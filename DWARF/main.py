@@ -19,7 +19,7 @@ config = {
     'elitism': 2
 }
 
-top_features = 11
+top_features = 9
 sa=[]
 def main():
     # 데이터 로드
@@ -113,25 +113,25 @@ def main():
             past_population = [individual for individual, _ in evaluated_population[:config['elitism']]]
         end = time.time()
         sa.append([end-start,final_score,precision,recall,f1])
-    avg= (sa[0][0]+sa[1][0]+sa[2][0]+sa[3][0]+sa[4][0])/5
-    print("Average Time: ",avg)
-    print("Average Score: ",(sa[0][1]+sa[1][1]+sa[2][1]+sa[3][1]+sa[4][1])/5)
+    # avg= (sa[0][0]+sa[1][0]+sa[2][0]+sa[3][0]+sa[4][0])
+    # print("Average Time: ",avg)
+    # print("Average Score: ",(sa[0][1]+sa[1][1]+sa[2][1]+sa[3][1]+sa[4][1]))
     # final score가 가장 높은 best_individual 찾기
-    best_score = 0
-    best_individual = None
-    best_time = 0
-    for i in range(5):
-        if sa[i][1] > best_score:
-            best_score = sa[i][1]
-            best_time = sa[i][0]
-            best_precision = sa[i][2]
-            best_recall = sa[i][3]
-            best_f1 = sa[i][4]
-    print("Best Time: ",best_time)
-    print("Best Score: ",best_score)
-    print("Best Precision: ",best_precision)
-    print("Best Recall: ",best_recall)
-    print("Best F1: ",best_f1)
+    # best_score = 0
+    # best_individual = None
+    # best_time = 0
+    # for i in range(5):
+    #     if sa[i][1] > best_score:
+    #         best_score = sa[i][1]
+    #         best_time = sa[i][0]
+    #         best_precision = sa[i][2]
+    #         best_recall = sa[i][3]
+    #         best_f1 = sa[i][4]
+    # print("Best Time: ",best_time)
+    # print("Best Score: ",best_score)
+    # print("Best Precision: ",best_precision)
+    # print("Best Recall: ",best_recall)
+    # print("Best F1: ",best_f1)
 
 if __name__ == "__main__":
     main()
