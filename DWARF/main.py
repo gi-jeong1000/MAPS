@@ -1,13 +1,15 @@
 import random
 import pandas as pd
+from sklearn.model_selection import train_test_split
+
 import gda
 from sklearn.ensemble import RandomForestClassifier
 import time
 
 # config 파일 설정
 config = {
-    'algorithm': 'CART',
-    'max_depth': 5,
+    'algorithm': 'ID3',
+    'max_depth': 3,
     'enableParallelism': False,
     'crossover_rate': 0.8,
     'mutation_rate': 0.3,
@@ -17,30 +19,45 @@ config = {
     'elitism': 2
 }
 
-top_features = 7
+top_features = 11
 sa=[]
 def main():
     # 데이터 로드
-    for i in range(5):
+    for i in range(1):
         start = time.time()
+        # column names 설정
         column_names = [
-            'ID', 'Diagnosis', 'radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean', 'smoothness_mean',
-            'compactness_mean', 'concavity_mean', 'concave_points_mean', 'symmetry_mean', 'fractal_dimension_mean',
-            'radius_se', 'texture_se', 'perimeter_se', 'area_se', 'smoothness_se', 'compactness_se', 'concavity_se',
-            'concave_points_se', 'symmetry_se', 'fractal_dimension_se', 'radius_worst', 'texture_worst',
-            'perimeter_worst',
-            'area_worst', 'smoothness_worst', 'compactness_worst', 'concavity_worst', 'concave_points_worst',
-            'symmetry_worst', 'fractal_dimension_worst'
+            "fixed acidity",
+            "volatile acidity",
+            "citric acid",
+            "residual sugar",
+            "chlorides",
+            "free sulfur dioxide",
+            "total sulfur dioxide",
+            "density",
+            "pH",
+            "sulphates",
+            "alcohol",
+            "Decision"
         ]
-        df = pd.read_csv('../data/wdbc.data', header=None, names=column_names)
+        df = pd.read_csv('../data/wine.csv', header=0,
+                         names=column_names, skiprows=1)
+        print(df.info())
 
-        # ID 칼럼은 분석에서 제외
-        df.drop(columns=['ID'], inplace=True)
+        # Convert all columns to numeric except 'Decision'
+        for col in df.columns:
+            if col != 'Decision':
+                df[col] = pd.to_numeric(df[col], errors='coerce')
 
-        df['Diagnosis'] = df['Diagnosis'].astype('object')
+        # # ID 칼럼은 분석에서 제외
+        # df.drop(columns=['ID'], inplace=True)
 
-        X = df.drop(columns=['Diagnosis'])
-        y = df['Diagnosis']
+        df['Decision'] = df['Decision'].astype('object')
+
+        X = df.drop(columns=['Decision'])
+        y = df['Decision']
+        # 데이터셋 7:3 분할
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
         # 피쳐 임포턴스로 컷오프 진행
         rf = RandomForestClassifier(n_estimators=100)
@@ -54,13 +71,15 @@ def main():
 
         top_n_features = feature_importances.head(top_features).index.tolist()  # Adjust the number of features as needed
 
-        X_top_features = X[top_n_features]
+        X_top_features = X_train[top_n_features]
+        X_test = X_test[top_n_features]
 
         df_top_features = pd.concat([X_top_features, y], axis=1)
+        df_test = pd.concat([X_test, y_test], axis=1)
 
         # 초기 염색체 생성
         past_population = [
-            gda.Chromosome(list(df_top_features.columns), df_top_features, cat_names=[], target='Diagnosis',
+            gda.Chromosome(list(df_top_features.columns), df_top_features, cat_names=[], target='Decision',
                            algorithm=config['algorithm']) for _ in range(config['population_size'])]
 
         # 유전 알고리즘 수행
@@ -87,7 +106,7 @@ def main():
 
             # 결과 출력
             best_individual, best_score = evaluated_population[0]
-            final_score,precision,recall,f1 = best_individual.final(df_top_features)
+            final_score,precision,recall,f1 = best_individual.final(df_test)
             print(f"Generation {generation} Score: {final_score}")
 
             # Elitism 적용

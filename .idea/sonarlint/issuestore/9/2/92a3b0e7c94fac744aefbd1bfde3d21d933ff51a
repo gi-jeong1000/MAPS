@@ -1,4 +1,7 @@
 
-¨python:S1179"_Rename this local variable "X_top_features" to match the regular expression ^[_a-z][a-z0-9_]*$.(‹½“ùüÿÿÿÿ8Åÿú“’2J$6837661d-38f1-4a01-afc9-bae0db9603ff
-˜python:S3776"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(œŸ²_8Íÿú“’2J$1e5bd29a-b8db-4536-b8dd-7cba5a75e263
-python:S6734&"5Do not use "inplace=True" when modifying a dataframe.(¤Õ™üýÿÿÿÿ8Ù¨ý¸”2J$61add21e-f910-40e2-aa92-4e83c2c19776
+špython:S117<"WRename this local variable "X_test" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄÙ¸.8§€ì–2J$34249efe-27d0-45c0-b779-8d2b0b6367e6
+¢python:S117J"_Rename this local variable "X_top_features" to match the regular expression ^[_a-z][a-z0-9_]*$.(ä„Û48§€ì–2J$91981cad-5ba9-4b62-82fa-abc42cf5506e
+›python:S117<"XRename this local variable "X_train" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÄÙ¸.8§€ì–2J$a187e74e-1996-4785-96c8-dd768c2b4515
+ypython:S1481<"5Replace the unused local variable "y_train" with "_".(ÄÙ¸.8§€ì–2J$c345f50e-63aa-4e1e-a372-62c724416a8f
+˜python:S3776"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(œŸ²_8¨€ì–2J$6d2b5e7a-6c68-4793-a4c4-1ade91746329
+–python:S3699-"LRemove this use of the output from "info"; "info" doesnâ€™t return anything.(Ÿ¼ž¤ýÿÿÿÿ8¨€ì–2J$19c2d634-4978-4b96-a66e-02b60cb33b52

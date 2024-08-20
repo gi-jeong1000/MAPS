@@ -84,7 +84,6 @@ class Chromosome:
             'enableParallelism': False,
             'max_depth': max_depth,
         }
-
     def clone(self):
         # 염색체 복제: 유전자 리스트를 deepcopy하여 새 염색체 생성
         clone_chromosome = Chromosome(self.attr_names, self.df, self.cat_names, f'{self.target}', self.config['algorithm'], self.config['max_depth'])

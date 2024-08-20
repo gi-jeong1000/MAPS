@@ -1,22 +1,26 @@
 
-python:S1192!"[Define a constant instead of duplicating this literal 'Greater_14.370000000000001' 7 times.(ëŒ“íÿÿÿÿÿ8‚±¸º”2
-kpython:S1192"LDefine a constant instead of duplicating this literal 'Less_12.855' 4 times.(……Èì8‚±¸º”2
-qpython:S1192;"MDefine a constant instead of duplicating this literal 'Less_0.05418' 4 times.(ùÈù§úÿÿÿÿ8‚±¸º”2
-kpython:S1192	"LDefine a constant instead of duplicating this literal 'Less_674.95' 4 times.(çª­8‚±¸º”2
-spython:S1192I"ODefine a constant instead of duplicating this literal 'Greater_0.1611' 4 times.(ªè‡ùÿÿÿÿ8‚±¸º”2
-ppython:S1192"LDefine a constant instead of duplicating this literal 'Less_1320.5' 9 times.(ğÛ›¤ûÿÿÿÿ8ƒ±¸º”2
-jpython:S1192W"LDefine a constant instead of duplicating this literal 'Less_0.1611' 5 times.(€é€48ƒ±¸º”2
-lpython:S1192"MDefine a constant instead of duplicating this literal 'Less_0.04877' 6 times.(Õ†öÚ8ƒ±¸º”2
-wpython:S1192"XDefine a constant instead of duplicating this literal 'Less_14.370000000000001' 8 times.(ä¹¯æ8ƒ±¸º”2
-qpython:S1192"MDefine a constant instead of duplicating this literal 'Less_0.02388' 3 times.(¥Ãêÿÿÿÿÿ8ƒ±¸º”2
-jpython:S1192"LDefine a constant instead of duplicating this literal 'Less_0.2096' 9 times.(ëÍÉ|8ƒ±¸º”2
-~python:S1192"ZDefine a constant instead of duplicating this literal 'Less_0.034460000000000005' 5 times.(ÖÑƒ¶ùÿÿÿÿ8ƒ±¸º”2
-opython:S1192+"PDefine a constant instead of duplicating this literal 'Greater_0.05418' 6 times.(ïİÔœ8ƒ±¸º”2
-lpython:S1192"MDefine a constant instead of duplicating this literal 'Less_0.14205' 5 times.(Æµ¾8ƒ±¸º”2
-—python:S1542"RRename function "findDecision" to match the regular expression ^[a-z_][a-z0-9_]*$.(²Õ†Â8êõ·º”2J$bba7fe24-1495-4551-8ad2-f482d0bad5a9
-špython:S3776"URefactor this function to reduce its Cognitive Complexity from 237 to the 15 allowed.(²Õ†Â8êõ·º”2J$4901905a-0c6d-4b48-a750-84370bfdb466
-ppython:S3923A"RRemove this if statement or edit its code blocks so that they're not all the same.(à¡øk8„±¸º”2
-vpython:S3923e"RRemove this if statement or edit its code blocks so that they're not all the same.(ÖÄØ£øÿÿÿÿ8„±¸º”2
-wpython:S3923‰"RRemove this if statement or edit its code blocks so that they're not all the same.(ùé•òÿÿÿÿÿ8„±¸º”2
-qpython:S3923™"RRemove this if statement or edit its code blocks so that they're not all the same.(à¡øk8„±¸º”2
-wpython:S3923í"RRemove this if statement or edit its code blocks so that they're not all the same.(ÖÄØ£øÿÿÿÿ8„±¸º”2
+rpython:S1192-"NDefine a constant instead of duplicating this literal 'Greater_15.5' 10 times.(ı…ı”üÿÿÿÿ8çŠì–2
+zpython:S1192)"[Define a constant instead of duplicating this literal 'Greater_0.6174999999999999' 6 times.(ë¢ßŞ8èŠì–2
+qpython:S1192	"MDefine a constant instead of duplicating this literal 'Less_0.0755' 12 times.(ÍÈ–¶üÿÿÿÿ8èŠì–2
+jpython:S11925"KDefine a constant instead of duplicating this literal 'Less_35.5' 12 times.(¯îÏê8èŠì–2
+tpython:S1192"PDefine a constant instead of duplicating this literal 'Greater_0.99515' 8 times.(±øÚ‘øÿÿÿÿ8èŠì–2
+npython:S1192"JDefine a constant instead of duplicating this literal 'Less_2.75' 6 times.(Í¸ô ùÿÿÿÿ8èŠì–2
+jpython:S1192"KDefine a constant instead of duplicating this literal 'Less_0.405' 6 times.(’ƒÀŸ8èŠì–2
+wpython:S1192"XDefine a constant instead of duplicating this literal 'Less_0.6174999999999999' 6 times.(±‹Œˆ8èŠì–2
+opython:S1192"PDefine a constant instead of duplicating this literal 'Greater_0.0755' 12 times.(¹Ç˜8èŠì–2
+qpython:S1192"MDefine a constant instead of duplicating this literal 'Less_0.99515' 8 times.(¸œ÷úÿÿÿÿ8èŠì–2
+ypython:S11923"[Define a constant instead of duplicating this literal 'Greater_11.649999999999999' 4 times.(«å»U8èŠì–2
+|python:S1192+"XDefine a constant instead of duplicating this literal 'Less_11.649999999999999' 5 times.(ä™òıÿÿÿÿ8èŠì–2
+jpython:S1192/"KDefine a constant instead of duplicating this literal 'Less_15.5' 10 times.(èù8éŠì–2
+lpython:S1192"MDefine a constant instead of duplicating this literal 'Greater_2.75' 6 times.(Ïáı»8éŠì–2
+ppython:S1192‹"KDefine a constant instead of duplicating this literal 'Less_11.5' 10 times.(Ûœßƒıÿÿÿÿ8éŠì–2
+rpython:S11927"NDefine a constant instead of duplicating this literal 'Greater_35.5' 12 times.(€èéşÿÿÿÿ8éŠì–2
+—python:S1542"RRename function "findDecision" to match the regular expression ^[a-z_][a-z0-9_]*$.(¶Ä’ø8˜ıñ«–2J$8b2d3280-7ff7-433c-b69f-4e9ad6f41278
+špython:S3776"URefactor this function to reduce its Cognitive Complexity from 409 to the 15 allowed.(¶Ä’ø8™ıñ«–2J$9afae06a-d08c-4e71-95bd-eda939b0cc88
+vpython:S3923"RRemove this if statement or edit its code blocks so that they're not all the same.(±øÚ‘øÿÿÿÿ8êŠì–2
+vpython:S3923"RRemove this if statement or edit its code blocks so that they're not all the same.(Í¸ô ùÿÿÿÿ8êŠì–2
+vpython:S3923"RRemove this if statement or edit its code blocks so that they're not all the same.(ÂÏ„»ÿÿÿÿÿ8êŠì–2
+vpython:S3923-"RRemove this if statement or edit its code blocks so that they're not all the same.(ı…ı”üÿÿÿÿ8êŠì–2
+vpython:S3923]"RRemove this if statement or edit its code blocks so that they're not all the same.(ıÿÇ²úÿÿÿÿ8ëŠì–2
+vpython:S3923}"RRemove this if statement or edit its code blocks so that they're not all the same.(ä™òıÿÿÿÿ8ëŠì–2
+wpython:S3923§"RRemove this if statement or edit its code blocks so that they're not all the same.(ÍÈ–¶üÿÿÿÿ8ëŠì–2

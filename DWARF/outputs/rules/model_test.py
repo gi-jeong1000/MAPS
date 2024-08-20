@@ -1,258 +1,222 @@
-def findDecision(obj): #obj[0]: radius_worst, obj[1]: area_worst, obj[2]: concave_points_mean, obj[3]: concave_points_worst, obj[4]: concavity_mean, obj[5]: radius_mean
-   # {"feature": "radius_worst", "instances": 569, "metric_value": 0.1413, "depth": 1}
-   if obj[0] == 'Less_16.355':
-      # {"feature": "concave_points_worst", "instances": 224, "metric_value": 0.0947, "depth": 2}
-      if obj[3] == 'Less_0.14205':
-         # {"feature": "concave_points_mean", "instances": 196, "metric_value": 0.0634, "depth": 3}
-         if obj[2] == 'Less_0.02388':
-            # {"feature": "area_worst", "instances": 92, "metric_value": 0.0206, "depth": 4}
-            if obj[1] == 'Less_674.95':
-               return 'B'
-            elif obj[1] == 'Less_1320.5':
-               # {"feature": "concavity_mean", "instances": 19, "metric_value": 0.0987, "depth": 5}
-               if obj[4] == 'Less_0.034460000000000005':
-                  return 'B'
-               elif obj[4] == 'Less_0.2096':
-                  return 'B'
+def findDecision(obj): #obj[0]: alcohol, obj[1]: sulphates, obj[2]: volatile acidity, obj[3]: total sulfur dioxide, obj[4]: density, obj[5]: chlorides, obj[6]: pH, obj[7]: fixed acidity, obj[8]: free sulfur dioxide, obj[9]: residual sugar
+   # {"feature": "alcohol", "instances": 1598, "metric_value": 0.9965, "depth": 1}
+   if obj[0] == 'Less_11.850000000000001':
+      # {"feature": "sulphates", "instances": 484, "metric_value": 0.9237, "depth": 2}
+      if obj[1] == 'Greater_0.665':
+         # {"feature": "volatile acidity", "instances": 221, "metric_value": 0.7714, "depth": 3}
+         if obj[2] == 'Less_0.405':
+            # {"feature": "chlorides", "instances": 92, "metric_value": 0.5281, "depth": 4}
+            if obj[5] == 'Less_0.0905':
+               # {"feature": "fixed acidity", "instances": 73, "metric_value": 0.4558, "depth": 5}
+               if obj[7] == 'Greater_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Less_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Less_7.65':
+                  return 'good'
                else:
-                  return 'M'
+                  return 'good'
+            elif obj[5] == 'Less_0.242':
+               # {"feature": "fixed acidity", "instances": 10, "metric_value": 0.7219, "depth": 5}
+               if obj[7] == 'Greater_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Less_9.149999999999999':
+                  return 'bad'
+               else:
+                  return 'good'
+            elif obj[5] == 'Less_0.058499999999999996':
+               # {"feature": "fixed acidity", "instances": 8, "metric_value": 0.5436, "depth": 5}
+               if obj[7] == 'Less_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Greater_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Less_7.65':
+                  return 'good'
+               else:
+                  return 'good'
+            elif obj[5] == 'Greater_0.242':
+               return 'bad'
             else:
-               return 'M'
-         elif obj[2] == 'Less_0.04877':
-            # {"feature": "radius_mean", "instances": 87, "metric_value": 0.0644, "depth": 4}
-            if obj[5] == 'Less_12.855':
-               # {"feature": "concavity_mean", "instances": 40, "metric_value": 0.0913, "depth": 5}
-               if obj[4] == 'Less_0.2096':
-                  return 'B'
-               elif obj[4] == 'Less_0.034460000000000005':
-                  return 'B'
+               return 'good'
+         elif obj[2] == 'Less_0.6174999999999999':
+            # {"feature": "density", "instances": 87, "metric_value": 0.8498, "depth": 4}
+            if obj[4] == 'Less_0.9978549999999999':
+               # {"feature": "residual sugar", "instances": 54, "metric_value": 0.8987, "depth": 5}
+               if obj[9] == 'Less_2.75':
+                  return 'good'
+               elif obj[9] == 'Greater_2.75':
+                  return 'bad'
                else:
-                  return 'M'
-            elif obj[5] == 'Less_14.370000000000001':
-               return 'B'
-            elif obj[5] == 'Greater_14.370000000000001':
-               # {"feature": "concavity_mean", "instances": 10, "metric_value": 0.1667, "depth": 5}
-               if obj[4] == 'Less_0.034460000000000005':
-                  return 'B'
-               elif obj[4] == 'Less_0.2096':
-                  return 'B'
+                  return 'good'
+            elif obj[4] == 'Greater_0.99821':
+               # {"feature": "fixed acidity", "instances": 15, "metric_value": 0.9183, "depth": 5}
+               if obj[7] == 'Greater_9.149999999999999':
+                  return 'good'
+               elif obj[7] == 'Less_7.65':
+                  return 'bad'
                else:
-                  return 'M'
+                  return 'good'
+            elif obj[4] == 'Less_0.9949950000000001':
+               return 'good'
+            elif obj[4] == 'Less_0.99821':
+               # {"feature": "chlorides", "instances": 7, "metric_value": 0.8631, "depth": 5}
+               if obj[5] == 'Less_0.242':
+                  return 'bad'
+               elif obj[5] == 'Less_0.0905':
+                  return 'good'
+               else:
+                  return 'good'
             else:
-               return 'M'
-         elif obj[2] == 'Greater_0.05418':
-            # {"feature": "radius_mean", "instances": 10, "metric_value": 0.15, "depth": 4}
-            if obj[5] == 'Less_14.370000000000001':
-               # {"feature": "area_worst", "instances": 4, "metric_value": 0.0, "depth": 5}
-               if obj[1] == 'Less_674.95':
-                  return 'B'
-               elif obj[1] == 'Less_1320.5':
-                  return 'M'
+               return 'good'
+         elif obj[2] == 'Greater_0.6174999999999999':
+            # {"feature": "density", "instances": 36, "metric_value": 0.9436, "depth": 4}
+            if obj[4] == 'Less_0.9978549999999999':
+               # {"feature": "chlorides", "instances": 20, "metric_value": 0.8813, "depth": 5}
+               if obj[5] == 'Less_0.0905':
+                  return 'good'
+               elif obj[5] == 'Less_0.242':
+                  return 'good'
                else:
-                  return 'M'
-            elif obj[5] == 'Greater_14.370000000000001':
-               return 'B'
-            elif obj[5] == 'Less_12.855':
-               return 'B'
-            else:
-               return 'M'
-         elif obj[2] == 'Less_0.05418':
-            # {"feature": "area_worst", "instances": 7, "metric_value": 0.1905, "depth": 4}
-            if obj[1] == 'Less_674.95':
-               return 'B'
-            elif obj[1] == 'Less_1320.5':
-               # {"feature": "concavity_mean", "instances": 3, "metric_value": 0.4444, "depth": 5}
-               if obj[4] == 'Less_0.2096':
-                  return 'M'
+                  return 'good'
+            elif obj[4] == 'Greater_0.99821':
+               # {"feature": "chlorides", "instances": 13, "metric_value": 0.8905, "depth": 5}
+               if obj[5] == 'Less_0.0905':
+                  return 'good'
+               elif obj[5] == 'Less_0.242':
+                  return 'bad'
                else:
-                  return 'M'
+                  return 'good'
+            elif obj[4] == 'Less_0.9949950000000001':
+               return 'bad'
+            elif obj[4] == 'Less_0.99821':
+               return 'bad'
             else:
-               return 'M'
+               return 'good'
+         elif obj[2] == 'Less_0.195':
+            # {"feature": "density", "instances": 6, "metric_value": 0.9183, "depth": 4}
+            if obj[4] == 'Less_0.9949950000000001':
+               # {"feature": "free sulfur dioxide", "instances": 3, "metric_value": 0.9183, "depth": 5}
+               if obj[8] == 'Greater_9.5':
+                  return 'good'
+               elif obj[8] == 'Less_9.5':
+                  return 'bad'
+               else:
+                  return 'good'
+            elif obj[4] == 'Greater_0.99821':
+               return 'good'
+            elif obj[4] == 'Less_0.9978549999999999':
+               return 'bad'
+            else:
+               return 'good'
          else:
-            return 'M'
-      elif obj[3] == 'Greater_0.1611':
-         # {"feature": "area_worst", "instances": 16, "metric_value": 0.0938, "depth": 3}
-         if obj[1] == 'Less_1320.5':
-            return 'M'
-         elif obj[1] == 'Less_674.95':
-            # {"feature": "radius_mean", "instances": 4, "metric_value": 0.0, "depth": 4}
-            if obj[5] == 'Less_12.855':
-               return 'M'
-            elif obj[5] == 'Less_14.370000000000001':
-               return 'B'
+            return 'good'
+      elif obj[1] == 'Less_0.665':
+         # {"feature": "density", "instances": 155, "metric_value": 0.9267, "depth": 3}
+         if obj[4] == 'Less_0.9978549999999999':
+            # {"feature": "pH", "instances": 103, "metric_value": 0.8703, "depth": 4}
+            if obj[6] == 'Less_3.525':
+               # {"feature": "chlorides", "instances": 90, "metric_value": 0.8813, "depth": 5}
+               if obj[5] == 'Less_0.0905':
+                  return 'good'
+               elif obj[5] == 'Less_0.242':
+                  return 'good'
+               elif obj[5] == 'Less_0.058499999999999996':
+                  return 'good'
+               elif obj[5] == 'Greater_0.242':
+                  return 'good'
+               else:
+                  return 'good'
+            elif obj[6] == 'Less_3.815':
+               # {"feature": "chlorides", "instances": 10, "metric_value": 0.8813, "depth": 5}
+               if obj[5] == 'Less_0.0905':
+                  return 'good'
+               elif obj[5] == 'Less_0.242':
+                  return 'bad'
+               else:
+                  return 'good'
+            elif obj[6] == 'Less_3.075':
+               return 'good'
             else:
-               return 'M'
+               return 'good'
+         elif obj[4] == 'Greater_0.99821':
+            # {"feature": "pH", "instances": 30, "metric_value": 0.971, "depth": 4}
+            if obj[6] == 'Less_3.525':
+               # {"feature": "volatile acidity", "instances": 26, "metric_value": 0.8905, "depth": 5}
+               if obj[2] == 'Less_0.6174999999999999':
+                  return 'good'
+               elif obj[2] == 'Greater_0.6174999999999999':
+                  return 'bad'
+               elif obj[2] == 'Less_0.405':
+                  return 'good'
+               else:
+                  return 'good'
+            elif obj[6] == 'Less_3.815':
+               return 'bad'
+            elif obj[6] == 'Less_3.075':
+               return 'bad'
+            else:
+               return 'good'
+         elif obj[4] == 'Less_0.9949950000000001':
+            # {"feature": "pH", "instances": 16, "metric_value": 0.896, "depth": 4}
+            if obj[6] == 'Less_3.525':
+               # {"feature": "volatile acidity", "instances": 12, "metric_value": 0.65, "depth": 5}
+               if obj[2] == 'Less_0.6174999999999999':
+                  return 'good'
+               elif obj[2] == 'Greater_0.6174999999999999':
+                  return 'good'
+               elif obj[2] == 'Less_0.405':
+                  return 'bad'
+               else:
+                  return 'good'
+            elif obj[6] == 'Less_3.815':
+               # {"feature": "total sulfur dioxide", "instances": 4, "metric_value": 0.8113, "depth": 5}
+               if obj[3] == 'Greater_35.5':
+                  return 'bad'
+               elif obj[3] == 'Less_35.5':
+                  return 'bad'
+               else:
+                  return 'good'
+            else:
+               return 'good'
+         elif obj[4] == 'Less_0.99821':
+            return 'bad'
          else:
-            return 'M'
-      elif obj[3] == 'Less_0.1611':
-         # {"feature": "radius_mean", "instances": 12, "metric_value": 0.4107, "depth": 3}
-         if obj[5] == 'Less_14.370000000000001':
-            # {"feature": "concave_points_mean", "instances": 7, "metric_value": 0.3333, "depth": 4}
-            if obj[2] == 'Greater_0.05418':
-               # {"feature": "concavity_mean", "instances": 3, "metric_value": 0.0, "depth": 5}
-               if obj[4] == 'Less_0.2096':
-                  return 'M'
-               elif obj[4] == 'Greater_0.26385000000000003':
-                  return 'B'
+            return 'good'
+      elif obj[1] == 'Less_0.575':
+         # {"feature": "volatile acidity", "instances": 71, "metric_value": 0.9999, "depth": 3}
+         if obj[2] == 'Greater_0.6174999999999999':
+            # {"feature": "density", "instances": 31, "metric_value": 0.9072, "depth": 4}
+            if obj[4] == 'Less_0.9978549999999999':
+               # {"feature": "total sulfur dioxide", "instances": 20, "metric_value": 0.7219, "depth": 5}
+               if obj[3] == 'Less_35.5':
+                  return 'bad'
+               elif obj[3] == 'Greater_35.5':
+                  return 'bad'
                else:
-                  return 'M'
-            elif obj[2] == 'Less_0.05418':
-               # {"feature": "area_worst", "instances": 2, "metric_value": 0.5, "depth": 5}
-               if obj[1] == 'Less_1320.5':
-                  return 'M'
+                  return 'good'
+            elif obj[4] == 'Greater_0.99821':
+               # {"feature": "residual sugar", "instances": 5, "metric_value": 0.971, "depth": 5}
+               if obj[9] == 'Greater_2.75':
+                  return 'bad'
+               elif obj[9] == 'Less_2.75':
+                  return 'good'
                else:
-                  return 'M'
-            elif obj[2] == 'Less_0.04877':
-               return 'B'
-            else:
-               return 'M'
-         elif obj[5] == 'Greater_14.370000000000001':
-            # {"feature": "concave_points_mean", "instances": 4, "metric_value": 0.3333, "depth": 4}
-            if obj[2] == 'Greater_0.05418':
-               # {"feature": "area_worst", "instances": 3, "metric_value": 0.4444, "depth": 5}
-               if obj[1] == 'Less_1320.5':
-                  return 'B'
+                  return 'good'
+            elif obj[4] == 'Less_0.9949950000000001':
+               # {"feature": "total sulfur dioxide", "instances": 5, "metric_value": 0.971, "depth": 5}
+               if obj[3] == 'Less_35.5':
+                  return 'bad'
+               elif obj[3] == 'Greater_35.5':
+                  return 'good'
                else:
-                  return 'M'
-            elif obj[2] == 'Less_0.04877':
-               return 'B'
+                  return 'good'
+            elif obj[4] == 'Less_0.99821':
+               return 'bad'
             else:
-               return 'M'
-         elif obj[5] == 'Less_12.855':
-            return 'M'
-         else:
-            return 'M'
-      else:
-         return 'M'
-   elif obj[0] == 'Greater_17.0':
-      # {"feature": "concave_points_mean", "instances": 184, "metric_value": 0.0698, "depth": 2}
-      if obj[2] == 'Greater_0.05418':
-         # {"feature": "concave_points_worst", "instances": 161, "metric_value": 0.0232, "depth": 3}
-         if obj[3] == 'Greater_0.1611':
-            return 'M'
-         elif obj[3] == 'Less_0.1611':
-            # {"feature": "area_worst", "instances": 25, "metric_value": 0.0738, "depth": 4}
-            if obj[1] == 'Less_1320.5':
-               # {"feature": "radius_mean", "instances": 13, "metric_value": 0.1399, "depth": 5}
-               if obj[5] == 'Greater_14.370000000000001':
-                  return 'M'
-               elif obj[5] == 'Less_14.370000000000001':
-                  return 'M'
-               else:
-                  return 'M'
-            elif obj[1] == 'Greater_1431.0':
-               return 'M'
-            elif obj[1] == 'Less_1431.0':
-               return 'M'
-            else:
-               return 'M'
-         elif obj[3] == 'Less_0.14205':
-            # {"feature": "area_worst", "instances": 11, "metric_value": 0.1591, "depth": 4}
-            if obj[1] == 'Less_1320.5':
-               # {"feature": "concavity_mean", "instances": 8, "metric_value": 0.2188, "depth": 5}
-               if obj[4] == 'Less_0.2096':
-                  return 'M'
-               else:
-                  return 'M'
-            elif obj[1] == 'Greater_1431.0':
-               return 'M'
-            elif obj[1] == 'Less_1431.0':
-               return 'M'
-            else:
-               return 'M'
-         else:
-            return 'M'
-      elif obj[2] == 'Less_0.04877':
-         # {"feature": "concavity_mean", "instances": 18, "metric_value": 0.4444, "depth": 3}
-         if obj[4] == 'Less_0.2096':
-            # {"feature": "concave_points_worst", "instances": 16, "metric_value": 0.4667, "depth": 4}
-            if obj[3] == 'Less_0.14205':
-               # {"feature": "radius_mean", "instances": 15, "metric_value": 0.4571, "depth": 5}
-               if obj[5] == 'Greater_14.370000000000001':
-                  return 'B'
-               elif obj[5] == 'Less_14.370000000000001':
-                  return 'M'
-               else:
-                  return 'M'
-            elif obj[3] == 'Less_0.1611':
-               return 'M'
-            else:
-               return 'M'
-         elif obj[4] == 'Less_0.034460000000000005':
-            return 'M'
-         else:
-            return 'M'
-      elif obj[2] == 'Less_0.05418':
-         return 'M'
-      elif obj[2] == 'Less_0.02388':
-         return 'M'
-      else:
-         return 'M'
-   elif obj[0] == 'Less_12.89':
-      # {"feature": "concave_points_worst", "instances": 136, "metric_value": 0.011, "depth": 2}
-      if obj[3] == 'Less_0.14205':
-         return 'B'
-      elif obj[3] == 'Less_0.1611':
-         # {"feature": "concavity_mean", "instances": 4, "metric_value": 0.25, "depth": 3}
-         if obj[4] == 'Less_0.2096':
-            # {"feature": "concave_points_mean", "instances": 2, "metric_value": 0.0, "depth": 4}
-            if obj[2] == 'Greater_0.05418':
-               return 'M'
-            elif obj[2] == 'Less_0.04877':
-               return 'B'
-            else:
-               return 'M'
-         elif obj[4] == 'Greater_0.26385000000000003':
-            return 'B'
-         elif obj[4] == 'Less_0.26385000000000003':
-            return 'B'
-         else:
-            return 'M'
-      elif obj[3] == 'Greater_0.1611':
-         return 'B'
-      else:
-         return 'M'
-   elif obj[0] == 'Less_17.0':
-      # {"feature": "concave_points_worst", "instances": 25, "metric_value": 0.3, "depth": 2}
-      if obj[3] == 'Less_0.14205':
-         # {"feature": "concave_points_mean", "instances": 20, "metric_value": 0.2386, "depth": 3}
-         if obj[2] == 'Less_0.04877':
-            # {"feature": "radius_mean", "instances": 11, "metric_value": 0.2182, "depth": 4}
-            if obj[5] == 'Greater_14.370000000000001':
-               return 'B'
-            elif obj[5] == 'Less_14.370000000000001':
-               # {"feature": "concavity_mean", "instances": 5, "metric_value": 0.4, "depth": 5}
-               if obj[4] == 'Less_0.2096':
-                  return 'M'
-               elif obj[4] == 'Less_0.034460000000000005':
-                  return 'B'
-               else:
-                  return 'M'
-            else:
-               return 'M'
-         elif obj[2] == 'Less_0.05418':
-            # {"feature": "radius_mean", "instances": 4, "metric_value": 0.25, "depth": 4}
-            if obj[5] == 'Greater_14.370000000000001':
-               # {"feature": "area_worst", "instances": 2, "metric_value": 0.5, "depth": 5}
-               if obj[1] == 'Less_1320.5':
-                  return 'M'
-               else:
-                  return 'M'
-            elif obj[5] == 'Less_14.370000000000001':
-               return 'M'
-            else:
-               return 'M'
-         elif obj[2] == 'Less_0.02388':
-            return 'B'
-         elif obj[2] == 'Greater_0.05418':
-            return 'B'
-         else:
-            return 'M'
-      elif obj[3] == 'Greater_0.1611':
-         return 'M'
-      elif obj[3] == 'Less_0.1611':
-         return 'M'
-      else:
-         return 'M'
-   else:
-      return 'M'
+               return 'good'
+         elif obj[2] == 'Less_0.6174999999999999':
+            # {"feature": "fixed acidity", "instances": 28, "metric_value": 0.9852, "depth": 4}
+            if obj[7] == 'Less_7.65':
+               # {"feature": "total sulfur dioxide", "instances": 14, "metric_value": 0.9852, "depth": 5}
+               if obj[3] == 'Less_35.5':
+                  return 'good'
