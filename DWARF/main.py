@@ -2,7 +2,7 @@ import dwarf
 
 config = {
     # 디시전 트리 설정
-    'algorithm': 'ID3',
+    'algorithm': 'C4.5',
     'max_depth': 3,
     'enableParallelism': False,
 

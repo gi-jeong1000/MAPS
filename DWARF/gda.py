@@ -161,7 +161,7 @@ def discrete_df(df: pd.DataFrame, chromo: Chromosome):
     df_copy = copy.deepcopy(df)
     for gene in chromo.genes: # 유전자에 대해 수행 (각 유전자는 연속형 특성을 이산화한 포인트를 의미함)
         if gene.disc_num == 1: # 이산화할 포인트가 없는 경우 해당 특성을 제거
-            df_copy = df_copy.drop(columns=[gene.feature])
+            # df_copy = df_copy.drop(columns=[gene.feature]) # 해당 라인을 주석처리 하면 이산화를 안하고 연속형 변수로 사용
             continue
         bin = [float('-inf')] # 이산화할 구간 설정
         label = [] # 이산화 레이블 (이름)
