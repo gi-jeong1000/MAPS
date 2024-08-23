@@ -1,0 +1,6 @@
+
+”python:S1542"ORename function "dwarfTree" to match the regular expression ^[a-z_][a-z0-9_]*$.(´è¿¨8»§‰õ—2J$8e6843da-ec35-4118-8749-699abbe320c8
+zpython:S14810"0Replace the unused local variable "f1" with "_".(ëİõƒüÿÿÿÿ8†şÓĞ—2J$c5f7fd2a-c5d4-442b-85d0-34e32536d704
+~python:S14810"4Replace the unused local variable "recall" with "_".(ëİõƒüÿÿÿÿ8†şÓĞ—2J$2b6e8287-bdf6-403b-8aa6-06606d7d929c
+}python:S1481/"8Replace the unused local variable "best_score" with "_".(ĞÅ¦Â8†şÓĞ—2J$f6952a49-343a-49f5-944b-69717a8addf3
+python:S14810"7Replace the unused local variable "precision" with "_".(ëİõƒüÿÿÿÿ8†şÓĞ—2J$e582bf42-79a8-40ec-a65b-01bf2cb5fd2e

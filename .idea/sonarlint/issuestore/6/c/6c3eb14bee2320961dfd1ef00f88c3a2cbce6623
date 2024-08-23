@@ -1,28 +1,6 @@
 
-ppython:S1192"LDefine a constant instead of duplicating this literal 'Less_0.665' 10 times.(¦Ùğ§ÿÿÿÿÿ8·ü¨ì–2
-|python:S1192©"\Define a constant instead of duplicating this literal 'Greater_0.6174999999999999' 13 times.(ë¢ßŞ8·ü¨ì–2
-jpython:S1192!"KDefine a constant instead of duplicating this literal 'Less_35.5' 12 times.(¯îÏê8·ü¨ì–2
-npython:S1192	"JDefine a constant instead of duplicating this literal 'Less_7.65' 9 times.(ßø€ˆøÿÿÿÿ8·ü¨ì–2
-jpython:S1192­"JDefine a constant instead of duplicating this literal 'Less_2.75' 3 times.(ò¬æ8·ü¨ì–2
-kpython:S1192_"LDefine a constant instead of duplicating this literal 'Less_0.405' 13 times.( ¿ºÕ8·ü¨ì–2
-ppython:S1192-"QDefine a constant instead of duplicating this literal 'Greater_0.99821' 11 times.(‡‡ÑĞ8·ü¨ì–2
-}python:S1192"YDefine a constant instead of duplicating this literal 'Less_0.6174999999999999' 12 times.(ßÄ½øÿÿÿÿ8·ü¨ì–2
-rpython:S1192Û"MDefine a constant instead of duplicating this literal 'Less_0.99821' 7 times.(¤Ë«üÿÿÿÿ8¸ü¨ì–2
-|python:S1192"XDefine a constant instead of duplicating this literal 'Less_0.9949950000000001' 6 times.(§ìéüÿÿÿÿ8¸ü¨ì–2
-lpython:S1192"MDefine a constant instead of duplicating this literal 'Less_0.0905' 10 times.(Ÿü³İ8¸ü¨ì–2
-npython:S1192%"JDefine a constant instead of duplicating this literal 'Less_11.5' 8 times.(Ûœßƒıÿÿÿÿ8¸ü¨ì–2
-rpython:S1192#"NDefine a constant instead of duplicating this literal 'Greater_35.5' 11 times.(€èéşÿÿÿÿ8¸ü¨ì–2
-opython:S1192O"KDefine a constant instead of duplicating this literal 'Less_0.515' 8 times.(Š‚„êıÿÿÿÿ8¸ü¨ì–2
-ppython:S1192"LDefine a constant instead of duplicating this literal 'Greater_9.5' 5 times.(ÍûäŸúÿÿÿÿ8¸ü¨ì–2
-{python:S1192"WDefine a constant instead of duplicating this literal 'Less_9.149999999999999' 9 times.(»í²ıúÿÿÿÿ8¸ü¨ì–2
-~python:S11921"ZDefine a constant instead of duplicating this literal 'Less_0.058499999999999996' 6 times.(•õí„ùÿÿÿÿ8¸ü¨ì–2
-xpython:S1192"YDefine a constant instead of duplicating this literal 'Less_0.9978549999999999' 12 times.(ô³ ã8¸ü¨ì–2
-hpython:S1192"IDefine a constant instead of duplicating this literal 'Less_9.5' 5 times.(ººæŒ8¸ü¨ì–2
-rpython:S1192"NDefine a constant instead of duplicating this literal 'Greater_0.665' 9 times.(š†ñüÿÿÿÿ8¸ü¨ì–2
-kpython:S1192)"LDefine a constant instead of duplicating this literal 'Less_0.242' 10 times.(Ôàœˆ8¸ü¨ì–2
-opython:S11925"KDefine a constant instead of duplicating this literal 'Less_0.575' 8 times.(„×íúÿÿÿÿ8¸ü¨ì–2
-rpython:S1192¹"MDefine a constant instead of duplicating this literal 'Greater_2.75' 3 times.(èûË‚ùÿÿÿÿ8¸ü¨ì–2
-ypython:S1192"ZDefine a constant instead of duplicating this literal 'Greater_9.149999999999999' 9 times.(Ÿÿ¡º8¹ü¨ì–2
-œpython:S1542"RRename function "findDecision" to match the regular expression ^[a-z_][a-z0-9_]*$.(­€Í¿ÿÿÿÿÿ8˜ıñ«–2J$0b4906db-c980-47d2-b942-663e802fb9f9
-Ÿpython:S3776"URefactor this function to reduce its Cognitive Complexity from 539 to the 15 allowed.(­€Í¿ÿÿÿÿÿ8™ıñ«–2J$d88b5a15-af65-4be1-a3eb-d64223d0a476
-qpython:S3923e"RRemove this if statement or edit its code blocks so that they're not all the same.(Ÿü³İ8ºü¨ì–2
+upython:S1192	"QDefine a constant instead of duplicating this literal 'Greater_0.030935' 3 times.(¸¦äÎùÿÿÿÿ8£”Ğ—2
+opython:S1192"KDefine a constant instead of duplicating this literal 'Less_670.3' 3 times.(–‚‰Çüÿÿÿÿ8£”Ğ—2
+vpython:S1542"RRename function "findDecision" to match the regular expression ^[a-z_][a-z0-9_]*$.(·ªÉñüÿÿÿÿ8£”Ğ—2
+xpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 40 to the 15 allowed.(·ªÉñüÿÿÿÿ8£”Ğ—2
+†python:S1871"bEither merge this branch with the identical one on line "13" or change one of the implementations.(–‚‰Çüÿÿÿÿ8£”Ğ—2
