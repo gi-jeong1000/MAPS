@@ -1,0 +1,5 @@
+Accuracy: 93.5672514619883
+Precision: 90.0901
+Recall: 100.0
+F1 Score: 94.78673534287162
+{'algorithm': 'ID3', 'enableParallelism': False, 'max_depth': 5, 'enableRandomForest': False, 'num_of_trees': 5, 'enableMultitasking': False, 'enableGBM': False, 'epochs': 10, 'learning_rate': 1, 'enableAdaboost': False, 'num_of_weak_classifier': 4, 'num_cores': 4}

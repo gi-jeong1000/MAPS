@@ -42,11 +42,12 @@ def dwarfTree(config):
         # 평가 후 정렬
         evaluated_population = [(individual, individual.evaluate(df_train)) for individual in new_population]
         evaluated_population.sort(key=lambda x: x[1], reverse=True)
-
-        # 결과 출력
-        best_individual, best_score = evaluated_population[0]
-        final_score,precision,recall,f1 = best_individual.final(df_test)
-        print(f"Generation {generation} Score: {final_score}")
-
         # 생존 염색체 선정
         past_population = [individual for individual, _ in evaluated_population[:survival_size]]
+        best_individual, best_score = evaluated_population[0]
+        print(f"Generation {generation} Score: {best_score}")
+
+# 결과 출력
+    best_individual, best_score = evaluated_population[0]
+    final_score,precision,recall,f1 = best_individual.final(df_test,f"{config['data_name']}_{config['algorithm']}_{best_score}",config)
+

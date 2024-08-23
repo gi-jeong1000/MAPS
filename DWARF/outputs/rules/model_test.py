@@ -1,98 +1,82 @@
-def findDecision(obj): #obj[0]: perimeter_worst, obj[1]: concave_points_worst, obj[2]: area_worst, obj[3]: concave_points_mean, obj[4]: radius_worst
-   # {"feature": "perimeter_worst", "instances": 398, "metric_value": 0.9661, "depth": 1}
-   if obj[0] == 'Less_85.07499999999999':
-      return 'B'
-   elif obj[0] == 'Less_142.7':
-      # {"feature": "area_worst", "instances": 109, "metric_value": 0.8614, "depth": 2}
-      if obj[2] == 'Less_928.5':
-         # {"feature": "concave_points_worst", "instances": 56, "metric_value": 1.0, "depth": 3}
-         if obj[1] == 'Less_0.1991':
-            # {"feature": "concave_points_mean", "instances": 45, "metric_value": 0.971, "depth": 4}
-            if obj[3] == 'Less_0.053335':
-               # {"feature": "radius_worst", "instances": 25, "metric_value": 0.795, "depth": 5}
-               if obj[4] == 'Less_19.33':
-                  return 'B'
-               else:
-                  return 'M'
-            elif obj[3] == 'Greater_0.053335':
-               # {"feature": "radius_worst", "instances": 20, "metric_value": 0.971, "depth": 5}
-               if obj[4] == 'Less_19.33':
-                  return 'M'
-               else:
-                  return 'M'
+def findDecision(obj): #obj[0]: perimeter_worst, obj[1]: radius_worst, obj[2]: area_worst, obj[3]: concave_points_mean
+   # {"feature": "perimeter_worst", "instances": 398, "metric_value": 0.9502, "depth": 1}
+   if obj[0] == 'Less_104.55':
+      # {"feature": "area_worst", "instances": 221, "metric_value": 0.3044, "depth": 2}
+      if obj[2] == 'Less_676.0':
+         # {"feature": "concave_points_mean", "instances": 180, "metric_value": 0.1537, "depth": 3}
+         if obj[3] == 'Less_0.08659':
+            # {"feature": "radius_worst", "instances": 179, "metric_value": 0.1228, "depth": 4}
+            if obj[1] == 'Greater_11.245000000000001':
+               return 'B'
+            elif obj[1] == 'Less_11.245000000000001':
+               return 'B'
             else:
                return 'M'
-         elif obj[1] == 'Greater_0.1991':
+         elif obj[3] == 'Greater_0.08659':
             return 'M'
-         elif obj[1] == 'Less_0.07628499999999999':
-            return 'B'
          else:
             return 'M'
-      elif obj[2] == 'Greater_928.5':
-         # {"feature": "concave_points_mean", "instances": 53, "metric_value": 0.3138, "depth": 3}
-         if obj[3] == 'Greater_0.053335':
+      elif obj[2] == 'Greater_717.2':
+         # {"feature": "radius_worst", "instances": 25, "metric_value": 0.795, "depth": 3}
+         if obj[1] == 'Greater_11.245000000000001':
+            # {"feature": "concave_points_mean", "instances": 25, "metric_value": 0.795, "depth": 4}
+            if obj[3] == 'Less_0.08659':
+               return 'B'
+            else:
+               return 'M'
+         else:
             return 'M'
-         elif obj[3] == 'Less_0.053335':
-            # {"feature": "radius_worst", "instances": 13, "metric_value": 0.7793, "depth": 4}
-            if obj[4] == 'Less_19.33':
-               # {"feature": "concave_points_worst", "instances": 9, "metric_value": 0.7642, "depth": 5}
-               if obj[1] == 'Less_0.1991':
-                  return 'M'
-               else:
-                  return 'M'
-            elif obj[4] == 'Greater_19.33':
-               # {"feature": "concave_points_worst", "instances": 4, "metric_value": 0.8113, "depth": 5}
-               if obj[1] == 'Less_0.1991':
-                  return 'M'
-               else:
-                  return 'M'
+      elif obj[2] == 'Less_717.2':
+         # {"feature": "radius_worst", "instances": 16, "metric_value": 0.5436, "depth": 3}
+         if obj[1] == 'Greater_11.245000000000001':
+            # {"feature": "concave_points_mean", "instances": 16, "metric_value": 0.5436, "depth": 4}
+            if obj[3] == 'Less_0.08659':
+               return 'B'
             else:
                return 'M'
          else:
             return 'M'
       else:
          return 'M'
-   elif obj[0] == 'Less_101.80000000000001':
-      # {"feature": "concave_points_mean", "instances": 105, "metric_value": 0.316, "depth": 2}
-      if obj[3] == 'Less_0.053335':
-         # {"feature": "concave_points_worst", "instances": 98, "metric_value": 0.1975, "depth": 3}
-         if obj[1] == 'Less_0.1991':
-            # {"feature": "radius_worst", "instances": 55, "metric_value": 0.1311, "depth": 4}
-            if obj[4] == 'Less_19.33':
-               # {"feature": "area_worst", "instances": 54, "metric_value": 0.133, "depth": 5}
-               if obj[2] == 'Less_928.5':
-                  return 'B'
-               else:
-                  return 'M'
-            elif obj[4] == 'Less_12.575':
-               return 'B'
-            else:
+   elif obj[0] == 'Greater_111.6':
+      # {"feature": "concave_points_mean", "instances": 135, "metric_value": 0.3534, "depth": 2}
+      if obj[3] == 'Greater_0.08659':
+         return 'M'
+      elif obj[3] == 'Less_0.08659':
+         # {"feature": "radius_worst", "instances": 62, "metric_value": 0.5976, "depth": 3}
+         if obj[1] == 'Greater_11.245000000000001':
+            # {"feature": "area_worst", "instances": 62, "metric_value": 0.5976, "depth": 4}
+            if obj[2] == 'Greater_717.2':
                return 'M'
-         elif obj[1] == 'Less_0.07628499999999999':
-            # {"feature": "area_worst", "instances": 43, "metric_value": 0.2714, "depth": 4}
-            if obj[2] == 'Less_928.5':
-               # {"feature": "radius_worst", "instances": 43, "metric_value": 0.2714, "depth": 5}
-               if obj[4] == 'Less_19.33':
-                  return 'B'
-               else:
-                  return 'M'
             else:
                return 'M'
          else:
             return 'M'
-      elif obj[3] == 'Greater_0.053335':
-         # {"feature": "concave_points_worst", "instances": 7, "metric_value": 0.9852, "depth": 3}
-         if obj[1] == 'Less_0.1991':
-            # {"feature": "area_worst", "instances": 5, "metric_value": 0.971, "depth": 4}
-            if obj[2] == 'Less_928.5':
-               # {"feature": "radius_worst", "instances": 5, "metric_value": 0.971, "depth": 5}
-               if obj[4] == 'Less_19.33':
-                  return 'B'
-               else:
-                  return 'M'
+      else:
+         return 'M'
+   elif obj[0] == 'Less_111.6':
+      # {"feature": "concave_points_mean", "instances": 23, "metric_value": 0.9656, "depth": 2}
+      if obj[3] == 'Less_0.08659':
+         # {"feature": "area_worst", "instances": 22, "metric_value": 0.9457, "depth": 3}
+         if obj[2] == 'Greater_717.2':
+            # {"feature": "radius_worst", "instances": 19, "metric_value": 0.8997, "depth": 4}
+            if obj[1] == 'Greater_11.245000000000001':
+               return 'B'
             else:
                return 'M'
-         elif obj[1] == 'Less_0.07628499999999999':
-            return 'B'
-         elif obj[1] == 'Greater_0.1991':
+         elif obj[2] == 'Less_717.2':
+            # {"feature": "radius_worst", "instances": 3, "metric_value": 0.9183, "depth": 4}
+            if obj[1] == 'Greater_11.245000000000001':
+               return 'M'
+            else:
+               return 'M'
+         else:
             return 'M'
+      elif obj[3] == 'Greater_0.08659':
+         return 'M'
+      else:
+         return 'M'
+   elif obj[0] == 'Less_66.12':
+      return 'B'
+   else:
+      return 'M'

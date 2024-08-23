@@ -1,0 +1,5 @@
+Accuracy: 94.15204678362574
+Precision: 100.0
+Recall: 84.6154
+F1 Score: 91.66667569444368
+{'algorithm': 'ID3', 'max_depth': 3, 'enableParallelism': False, 'crossover_rate': 0.8, 'mutation_rate': 0.3, 'survival_rate': 0.1, 'population_size': 10, 'generations': 5, 'top_features': 5, 'data_name': 'wdbc', 'train_ratio': 0.7}

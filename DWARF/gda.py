@@ -138,13 +138,22 @@ class Chromosome:
         # self.objective = f1_score
 
         return self.objective
-    def final(self, df):
+    def final(self, df,model_name,config):
         df_disc = discrete_df(df, self)
-        self.model = chef.fit(df_disc, self.config, target_label=self.target, name='model_test')
+        self.model = chef.fit(df_disc, self.config, target_label=self.target, name=model_name)
         accuracy = self.model['evaluation']['train']['Accuracy']
         precision = self.model['evaluation']['train']['Precision']
         recall = self.model['evaluation']['train']['Recall']
         f1_score = 2 * (precision * recall) / (precision + recall)
+        # txt 파일로 기록
+        with open(f'./log/{model_name}.txt', 'w') as f:
+            f.write(f"Accuracy: {accuracy}\n")
+            f.write(f"Precision: {precision}\n")
+            f.write(f"Recall: {recall}\n")
+            f.write(f"F1 Score: {f1_score}\n")
+            f.write(f"{config}")
+
+        print("saved log file")
         return accuracy, precision, recall, f1_score
 # 이산화 데이터프레임 생성
 # 파라미터 : 데이터프레임, 염색체
