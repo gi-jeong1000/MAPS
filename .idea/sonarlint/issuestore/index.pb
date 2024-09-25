@@ -14,22 +14,14 @@ F
 DWARF/main.py,9/2/92a3b0e7c94fac744aefbd1bfde3d21d933ff51a
 @
 general_ML/RF.py,1/5/15469b63e1148f31ac58ea7ddf2a0bf5c34be75f
-=
-DWARF/test.py,2/4/248e2ce8b1580fe1155a0a315d30a11d434707b3
 Q
 !DWARF/outputs/rules/model_test.py,6/c/6c3eb14bee2320961dfd1ef00f88c3a2cbce6623
 =
 data/wine.csv,e/0/e0fdf87e3ed266789ddaab437b59d778b14afc1e
-B
-DWARF/visualize.py,b/3/b32495954d57091aef141391b2d9d3e31b76870f
-A
-DWARF/simplify.py,9/f/9f50e3816d1cf2a0cd7e39c734dd901f538f3185
 G
 general_ML/CART_TREE.py,c/d/cdb2cfcdb911852d09f90a677d61bf75535aba52
 L
 DWARF/chefboost/Chefboost.py,5/d/5d636e8f4edcb3029233f907ab7d460f27abcbe2
-F
-DWARF/preprocessing.py,6/7/67adb5c837339c20cb7c77675525d5b15c5045af
 B
 DWARF/embedData.py,c/3/c310b01a9e47eddaeef72f4660664d21f62e0c4a
 >
@@ -40,3 +32,9 @@ X
 (DWARF/log/wdbc_ID3_93.96984924623115.txt,7/f/7f53ae7b4c4c15fb50f1fef29cb7d41472e13f7b
 X
 (DWARF/log/wdbc_ID3_95.97989949748744.txt,8/d/8dc0c471bf4661a9af2b6e68b38fa52993196f8e
+8
+check.py,5/a/5a972e046aa0096a77ca4d7247633c3b1e4f872c
+Y
+)DWARF/log/wine_C4.5_99.29577464788733.txt,6/8/6865c7ee0670e3ad812d8f2cd939289220827f70
+Z
+*DWARF/log/wine_C4.5_generation_results.csv,6/3/6305e4dba93b769b1c771792e448b07149637c48

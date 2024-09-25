@@ -41,7 +41,6 @@ def load_wdbc():
 
 
     return X,y
-import pandas as pd
 
 def load_Dusan():
     # 데이터셋 로드

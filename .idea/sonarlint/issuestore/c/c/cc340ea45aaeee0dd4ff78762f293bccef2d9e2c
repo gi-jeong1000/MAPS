@@ -1,6 +1,4 @@
 
-”python:S1542"ORename function "dwarfTree" to match the regular expression ^[a-z_][a-z0-9_]*$.(´è¿¨8î´õ—2J$a8413540-dd08-49fa-8b15-015d567826c9
-zpython:S14814"0Replace the unused local variable "f1" with "_".(›Ã‡·ıÿÿÿÿ8Ÿî´õ—2J$61f686aa-3ba0-4c1e-8280-0c8d5169e452
-ƒpython:S14814"9Replace the unused local variable "final_score" with "_".(›Ã‡·ıÿÿÿÿ8î´õ—2J$9c88ab89-546c-470b-9f1b-9b167ac99931
-~python:S14814"4Replace the unused local variable "recall" with "_".(›Ã‡·ıÿÿÿÿ8–‹»õ—2J$5a8cd354-aff8-4835-a207-7ef8239a8a9e
-python:S14814"7Replace the unused local variable "precision" with "_".(›Ã‡·ıÿÿÿÿ8Ÿî´õ—2J$42f3b560-17a8-48be-83d2-9dfae5b050b1
+”python:S1542"ORename function "dwarfTree" to match the regular expression ^[a-z_][a-z0-9_]*$.(´è¿¨8ù»µÀ¢2J$bc1add95-e620-48ed-bc5e-da4056b8e081
+ƒpython:S1481n"9Replace the unused local variable "final_score" with "_".(İó€ùÿÿÿÿ8ú»µÀ¢2J$c99d9abd-1ab5-4bfb-ac9a-d3aa9d10ce86
+zpython:S1481n"0Replace the unused local variable "f1" with "_".(İó€ùÿÿÿÿ8ú»µÀ¢2J$922831e7-d04a-410b-95a9-5ae7c8b97f09

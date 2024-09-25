@@ -129,15 +129,15 @@ class Chromosome:
         df_disc = discrete_df(df, self)
         self.model = chef.fit(df_disc, self.config, target_label=self.target, name='model_test')
 
-        # 목적함수: 정확도
+        # 평가 지표 계산
         accuracy = self.model['evaluation']['train']['Accuracy']
+        precision = self.model['evaluation']['train']['Precision']
+        recall = self.model['evaluation']['train']['Recall']
+        f1_score = 2 * (precision * recall) / (precision + recall)
+
         self.objective = accuracy
 
-        # 목적함수: F1 Score
-        # f1_score = self.model['evaluation']['train']['F1 Score']
-        # self.objective = f1_score
-
-        return self.objective
+        return accuracy, precision, recall, f1_score
     def final(self, df,model_name,config):
         df_disc = discrete_df(df, self)
         self.model = chef.fit(df_disc, self.config, target_label=self.target, name=model_name)

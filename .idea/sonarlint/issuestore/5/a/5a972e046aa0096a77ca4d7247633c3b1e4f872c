@@ -1,0 +1,11 @@
+
+˜python:S117"TRename this local variable "Xgo" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅÏ¥Ñ8Áúñ™¢2J$3bbe5b26-e1fe-45a7-b258-4529d6f1e3cb
+˜python:S117"TRename this local variable "Ygo" to match the regular expression ^[_a-z][a-z0-9_]*$.(ðÑô¸8Áúñ™¢2J$d54a81b2-5128-44cb-84b6-407adb1c1d1d
+˜python:S3776
+"TRefactor this function to reduce its Cognitive Complexity from 25 to the 15 allowed.(¬×˜;8Âúñ™¢2J$f5cc80f3-fe01-417e-8f7f-0b6ddfa74a9d
+ppython:S1481"+Replace the unused loop index "i" with "_".(é•Ç³8Âúñ™¢2J$ad115c5f-2479-4aac-a730-2b84a8b93fa8
+ppython:S1481"+Replace the unused loop index "i" with "_".(é•Ç³8Âúñ™¢2J$e52f34ea-c60f-4593-b088-b6ecb9c50d79
+}python:S905":Remove or refactor this statement; it has no side effects.(­Æû$8Ãúñ™¢2J$332e8236-6328-45a9-82b8-f895e64dfe5c
+~python:S905":Remove or refactor this statement; it has no side effects.(ë‘²Ð8Ãúñ™¢2J$80f3c24e-b618-4858-8374-e0a8aebb70a4
+ƒpython:S905#":Remove or refactor this statement; it has no side effects.(ûöŽÌþÿÿÿÿ8Ãúñ™¢2J$84a5d66d-e939-4f2d-a8bf-2abef3a6b497
+8python:S6659)"Use `endswith` here.(üÄË¥ÿÿÿÿÿ8Á‰ó™¢2

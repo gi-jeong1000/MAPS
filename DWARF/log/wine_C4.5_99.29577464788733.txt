@@ -1,0 +1,5 @@
+Accuracy: 100.0
+Precision: 100.0
+Recall: 100.0
+F1 Score: 100.0
+{'algorithm': 'C4.5', 'max_depth': 3, 'enableParallelism': False, 'crossover_rate': 0.8, 'mutation_rate': 0.3, 'survival_rate': 0.1, 'population_size': 10, 'generations': 2, 'top_features': 5, 'data_name': 'wine', 'train_ratio': 0.7}
