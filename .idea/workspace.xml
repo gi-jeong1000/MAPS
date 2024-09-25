@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1905fc-7f46-4dd0-b869-82b388ad73de" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/248e2ce8b1580fe1155a0a315d30a11d434707b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67adb5c837339c20cb7c77675525d5b15c5045af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f50e3816d1cf2a0cd7e39c734dd901f538f3185" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe6f7a6a0e437c31bc41b25b6f225d82627e649" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe6f7a6a0e437c31bc41b25b6f225d82627e649" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b32495954d57091aef141391b2d9d3e31b76870f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c310b01a9e47eddaeef72f4660664d21f62e0c4a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c310b01a9e47eddaeef72f4660664d21f62e0c4a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc340ea45aaeee0dd4ff78762f293bccef2d9e2c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc340ea45aaeee0dd4ff78762f293bccef2d9e2c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/4/248e2ce8b1580fe1155a0a315d30a11d434707b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/7/67adb5c837339c20cb7c77675525d5b15c5045af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f50e3816d1cf2a0cd7e39c734dd901f538f3185" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b32495954d57091aef141391b2d9d3e31b76870f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWARF/dwarf.py" beforeDir="false" afterPath="$PROJECT_DIR$/DWARF/dwarf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWARF/embedData.py" beforeDir="false" afterPath="$PROJECT_DIR$/DWARF/embedData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWARF/gda.py" beforeDir="false" afterPath="$PROJECT_DIR$/DWARF/gda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWARF/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/DWARF/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DWARF/outputs/rules/model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DWARF/outputs/rules/model_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf1905fc-7f46-4dd0-b869-82b388ad73de" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +83,7 @@
       <workItem from="1726909492651" duration="2130000" />
       <workItem from="1727086470875" duration="137000" />
       <workItem from="1727166798703" duration="1564000" />
-      <workItem from="1727245862472" duration="3132000" />
+      <workItem from="1727245862472" duration="3450000" />
     </task>
     <servers />
   </component>
